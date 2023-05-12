@@ -7,13 +7,10 @@
   text-decoration: none;
   color: #ffffff;
 }
-/* body{
-  background-image: url(./logos/download.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+ body{
+ background-color: rgb(221, 206, 206);
   
-} */
+} 
 .full-screen {
   width: 80%;
   height: 200vh;
@@ -22,22 +19,27 @@
 /* section styles */
 .home-sec {
   height: 50vh;
+  background-color: #ffffff;
 }
 .books-sec {
   height: 50vh;
+  background-color: #ffffff;
 }
 .store-sec {
   height: 50vh;
+  background-color: #ffffff;
 }
 .services-sec {
   height: 50vh;
+  background-color: #ffffff;
 }
 /* about */
 .about-sec {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 50vh;
+  height: 35vh;
+  background-color: #ffffff;
 }
 .ul-icons img {
   width: 30px;
