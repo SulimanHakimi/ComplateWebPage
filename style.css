@@ -1,0 +1,122 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+}
+/* body{
+  background-image: url(./logos/download.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  
+} */
+.full-screen {
+  width: 80%;
+  height: 200vh;
+  margin-left: 10%;
+  background-color: violet;
+}
+/* section styles */
+.home-sec {
+  height: 50vh;
+  background-color: rgb(252, 6, 108);
+}
+.books-sec {
+  height: 50vh;
+  background-color: rgb(0, 238, 255);
+}
+.store-sec {
+  height: 50vh;
+  background-color: rgb(14, 127, 233);
+}
+.services-sec {
+  height: 50vh;
+  background-color: rgb(112, 226, 4);
+}
+/* about */
+.about-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50vh;
+}
+.ul-icons img {
+  width: 30px;
+  height: 30px;
+}
+.ul-icons img:hover {
+  width: 40px;
+  height: 40px;
+}
+.about-sec li a {
+  color: #967d7d;
+}
+.about-sec li a:hover {
+  color: #000000;
+}
+.about-sec ul {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-sec ul li {
+  margin-bottom: 10px;
+}
+.ul-items {
+  width: 25%;
+  height: 80%;
+}
+.ul-icons {
+  width: 10%;
+  height: 80%;
+}
+
+/* navgition style */
+nav {
+  width: 80%;
+  height: 6vh;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  background-color: yellowgreen;
+}
+label {
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 10px 0px;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 20px;
+}
+ul li a:hover {
+  color: black;
+}
+.login-sign {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  padding: 4px 0px;
+}
+#login-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  padding-top: 5px;
+}
+
+#btn {
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  margin: 8px;
+}
