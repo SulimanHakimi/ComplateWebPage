@@ -7,10 +7,10 @@
   text-decoration: none;
   color: #ffffff;
 }
- body{
- background-color: rgb(221, 206, 206);
+body {
+  background-color: rgb(221, 206, 206);
   
-} 
+}
 .full-screen {
   width: 80%;
   height: 200vh;
@@ -82,19 +82,32 @@ nav {
   display: flex;
   position: fixed;
   justify-content: space-between;
-  background-color: yellowgreen;
+  align-items: center;
+  background-color:red;
 }
-label {
+.logo {
+  width: 18%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 10px;
+}
+.logo img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.logo label {
   font-weight: bold;
   font-size: 25px;
   cursor: pointer;
-  padding: 5px 0px;
 }
+
 nav ul li {
   list-style: none;
   display: inline-block;
   font-weight: bold;
-  padding: 5px 20px;
+  padding: 0px 20px;
   font-size: 20px;
 }
 ul li a:hover {
@@ -103,8 +116,8 @@ ul li a:hover {
 .login-sign {
   display: flex;
   justify-content: space-between;
-  width: 15%;
-  padding: 4px 0px;
+  align-items: center;
+  width: 10%;
 }
 #login-img {
   width: 40px;
@@ -114,6 +127,16 @@ ul li a:hover {
 
 #btn {
   cursor: pointer;
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
+}
+/* login page style /////////////////////////////////////////////////////////////////////////*/
+.login-form{
+  width: 50%;
+  height: 50vh;
+  background-color: #967d7d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
