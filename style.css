@@ -3,7 +3,7 @@
   padding: 0%;
   box-sizing: border-box;
   text-transform: capitalize;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+font-family: monospace;
   text-decoration: none;
   color: #ffffff;
 }
@@ -78,19 +78,18 @@ body {
 /* navgition style */
 nav {
   width: 80%;
-  height: 6vh;
+  height: 8vh;
   display: flex;
   position: fixed;
   justify-content: space-between;
-  align-items: center;
-  background-color:red;
+  background-color: tomato;
 }
 .logo {
-  width: 18%;
+  width: 25%;
+  height: 8vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-left: 10px;
 }
 .logo img {
   width: 40px;
@@ -99,37 +98,38 @@ nav {
 }
 .logo label {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 21px;
   cursor: pointer;
 }
-
+nav ul{
+  height: 8vh;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
 nav ul li {
   list-style: none;
-  display: inline-block;
   font-weight: bold;
-  padding: 0px 20px;
-  font-size: 20px;
+  font-size: 18px;
 }
 ul li a:hover {
   color: black;
 }
 .login-sign {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  width: 10%;
+  width: 15%;
+  height: 8vh;
 }
-#login-img {
-  width: 40px;
-  height: 40px;
-  margin-right: 20px;
+#login-img,#btn {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }
 
-#btn {
-  cursor: pointer;
-  width: 40px;
-  height: 40px;
-}
 /* login page style /////////////////////////////////////////////////////////////////////////*/
 .login-form{
   width: 50%;
