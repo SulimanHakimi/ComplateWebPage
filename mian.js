@@ -1,8 +1,8 @@
-document.getElementById("btn").addEventListener("click", () => {
-  const randomNumber = Math.floor(Math.random() * 16777215);
-  let randomCode = "#" + randomNumber.toString(16);
-  document.getElementById("nav").style.backgroundColor = randomCode;
-});
+// document.getElementById("btn").addEventListener("click", () => {
+//   const randomNumber = Math.floor(Math.random() * 16777215);
+//   let randomCode = "#" + randomNumber.toString(16);
+//   document.getElementById("nav").style.backgroundColor = randomCode;
+// });
 let btnRemove = document.getElementById("btnRemove");
 let btnRemove2 = document.getElementById("btnRemove2");
 let box1 = document.getElementById('imgRemve');
