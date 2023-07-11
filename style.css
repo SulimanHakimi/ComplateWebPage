@@ -144,7 +144,7 @@ nav ul li a{
   font-size: 17px
 }
 ul li a:hover {
-  color: black
+  color: rgb(255, 255, 255)
 }
 .login-sign {
   display: flex;
